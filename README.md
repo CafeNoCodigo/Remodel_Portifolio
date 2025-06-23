@@ -1,4 +1,12 @@
-# 💼 Welcome to my Space
+<h1 align="center">💼 Welcome to my Space</h1>
+
+---
+
+![Snake animation](https://github.com/cafeNoCodigo/Remodel_Portifolio/blob/output/github-contribution-grid-snake.svg)
+
+---
+
+
 
 <!-- GitHub Stats -->
 <div align="center">
@@ -13,7 +21,7 @@
 Welcome to my personal portfolio!  
 This project showcases my skills, tools, and technologies used throughout my learning and professional journey.
 
-Built with tools like **Java**, **JavaFX**, **React**, and **MySQL**, this portfolio includes GitHub stats, tech stack icons, and contact links for collaboration.
+Built with tools like **Java**, **JavaFX**, **React**, **CSS**, **HTML**, **ThreeJS**, and **MySQL**, this portfolio includes GitHub stats, tech stack icons, and contact links for collaboration.
 
 ---
 
@@ -29,11 +37,6 @@ I'm a passionate developer who loves solving real-world problems through practic
 - **Importador de Produtos Excel** – Função para sistemas de estoque com leitura automática de planilhas.
 
 > _Mais projetos em breve. Confira os repositórios públicos!_
-
----
-
-![Snake animation](https://github.com/cafeNoCodigo/Remodel_Portifolio/blob/output/dist/github-contribution-grid-snake.svg)
-
 
 ---
 
@@ -53,6 +56,7 @@ I'm a passionate developer who loves solving real-world problems through practic
   <img align="center" alt="Fabio-HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
   <img align="center" alt="Fabio-MAVEN" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg">
   <img align="center" alt="Fabio-REACT" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+  <img align="center" alt="Fabio-THREEJS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threejs/threejs-original.svg" />
 </div>
 
 ---

@@ -32,7 +32,7 @@ I'm a passionate developer who loves solving real-world problems through practic
 
 ---
 
-![Snake animation](https://github.com/FabioMainato/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/CafeNoCodigo/Remodel_Portifolio/blob/output/dist/github-contribution-grid-snake.svg)
 
 ---
 

@@ -1,12 +1,68 @@
-# React + Vite
+# 💼 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Welcome GIF">
+</p>
 
-Currently, two official plugins are available:
+Welcome to my personal portfolio!  
+This project showcases my skills, tools, and technologies used throughout my learning and professional journey.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Built with tools like **Java**, **JavaFX**, **React**, and **MySQL**, this portfolio includes GitHub stats, tech stack icons, and contact links for collaboration.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👨‍💻 About Me
+I'm a passionate developer who loves solving real-world problems through practical solutions. I have experience with desktop systems (POS, management tools) and modern web applications.
+
+---
+
+## 🛠️  Projects
+
+- **Sistema PDV JavaFX + MySQL** – Aplicação desktop para vendas com controle de estoque e caixa.
+- **Portfólio Pessoal em React** – Site responsivo destacando projetos e habilidades.
+- **Importador de Produtos Excel** – Função para sistemas de estoque com leitura automática de planilhas.
+
+> _Mais projetos em breve. Confira os repositórios públicos!_
+
+---
+
+## 🎓 Certificados / Certificates
+- Git e GitHub – [Digital Innovation One]
+
+> _Meus certificados podem ser verificados por solicitação._
+
+---
+
+<!-- GitHub Stats -->
+<div align="center">
+  <a href="https://github.com/CafeNoCodigo">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=CafeNoCodigo&show_icons=true&theme=radical" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CafeNoCodigo&layout=compact&theme=radical" />
+  </a>
+</div>
+
+---
+
+## 🚀 Skills / Tecnologias
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Fabio-JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Fabio-JAVA" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg">
+  <img align="center" alt="Fabio-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg">
+  <img align="center" alt="Fabio-HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
+  <img align="center" alt="Fabio-MAVEN" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg">
+  <img align="center" alt="Fabio-REACT" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+</div>
+
+---
+
+## 📫 Contato / Contact
+
+<div>
+  <a href="mailto:fabiaochirindzamainato@gmail.com">
+    <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+  </a>
+  <a href="https://www.linkedin.com/in/fabiao-chirindza-mainato/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+  </a>
+</div>

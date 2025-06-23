@@ -1,8 +1,14 @@
-# 💼 Personal Portfolio
+# 💼 Welcome to my Space
 
-<p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Welcome GIF">
-</p>
+<!-- GitHub Stats -->
+<div align="center">
+  <a href="https://github.com/CafeNoCodigo">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=CafeNoCodigo&show_icons=true&theme=radical" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CafeNoCodigo&layout=compact&theme=radical" />
+  </a>
+</div>
+
+---
 
 Welcome to my personal portfolio!  
 This project showcases my skills, tools, and technologies used throughout my learning and professional journey.
@@ -26,20 +32,14 @@ I'm a passionate developer who loves solving real-world problems through practic
 
 ---
 
+![Snake animation](https://github.com/CafeNoCodigo/blob/output/github-contribuition-grid-snake.svg)
+
+---
+
 ## 🎓 Certificados / Certificates
 - Git e GitHub – [Digital Innovation One]
 
 > _Meus certificados podem ser verificados por solicitação._
-
----
-
-<!-- GitHub Stats -->
-<div align="center">
-  <a href="https://github.com/CafeNoCodigo">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=CafeNoCodigo&show_icons=true&theme=radical" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CafeNoCodigo&layout=compact&theme=radical" />
-  </a>
-</div>
 
 ---
 

@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { useMediaQuery } from "react-responsive";
 import { Agora } from "./Agora.jsx";
 import HeroLights from "./HeroLights.jsx";
+import Particles from "./Particles.jsx"
  
 const HeroExperience = () => {
   const isTablet= useMediaQuery({ query: '(max-width: 1024px)'});
@@ -20,9 +21,10 @@ const HeroExperience = () => {
       />
 
       <HeroLights/>
+      <Particles count={500}/>
       <group
-        scale={isMobile? 0.17 : 0.2}
-        position={isMobile? [0, -2.5, 0] : [0, -4, 0]}
+        scale={isMobile? 0.12 : 0.17}
+        position={isMobile? [0, -2.7, 0] : [0, -4, 0]}
         rotation={[0, -Math.PI/4, 0]}
       >
         

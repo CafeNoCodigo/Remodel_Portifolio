@@ -54,11 +54,12 @@ const Hero = () => {
                         <h1>em Projectos Reais</h1>
                         <h1>que Entregam Resultados</h1>
                     </div>
-                    <p className="text-white-50 md:text-xl relative z-10 pointer-events-none md:right-16">Olá! Chamo-me Fabião Mainato e sou desenvolvedor de software, sistemas Desktop e sistemas web.</p>
+                    <p className="text-white-50 md:text-xl relative z-10 pointer-events-none md:right-16">Olá! Chamo-me Fabião Mainato e sou desenvolvedor de software, </p>
+                    <p className="text-white-50 md:text-xl relative z-10 pointer-events-none md:right-16 bottom-6">sistemas Desktop e sistemas web.</p>
                     <Button 
                         className="md:w-80 md:h-17 w-60 h-12 md:right-16"
                         id="button"
-                        text="See my Work"/>
+                        text="Trabalhos Feitos"/>
                 </div>
             </header>
 

@@ -21,11 +21,11 @@ const HeroExperience = () => {
       />
 
       <HeroLights/>
-      <Particles count={500}/>
+      <Particles count={100}/>
       <group
         scale={isMobile? 0.12 : 0.17}
         position={isMobile? [0, -2.7, 0] : [0, -4, 0]}
-        rotation={[0, -Math.PI/4, 0]}
+        rotation={[0, -Math.PI/5, 0]}
       >
         
         <Agora/>

@@ -1,4 +1,4 @@
-import { div } from "three/tsl"
+
 import { counterItems } from "../constants"
 import CountUp from "react-countup"
 

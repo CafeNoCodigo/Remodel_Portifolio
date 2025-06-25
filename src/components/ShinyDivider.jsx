@@ -26,21 +26,13 @@ const ShinyDivider = () => {
 
     tl.to(wrapper, {
       x: maxX,
-      duration: 2.5,
+      duration: 4,
       ease: 'power2.inOut',
       onComplete: () => {
         setWordIndex((prev) => (prev + 1) % divide_words.length);
         animateBounce();
       },
-    }).to(wrapper, {
-      x: 0,
-      duration: 2.5,
-      ease: 'power2.inOut',
-      onComplete: () => {
-        setWordIndex((prev) => (prev + 1) % divide_words.length);
-        animateBounce();
-      },
-    });
+    })
 
     animationRef.current = tl;
   };

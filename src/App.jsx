@@ -1,4 +1,5 @@
 import NavBar from "./components/HeroModel/NavBar.jsx"
+import LogoSection from "./components/LogoSection.jsx"
 import ShinyDivider from "./components/ShinyDivider.jsx"
 
 import Hero from "./sections/Hero.jsx"
@@ -12,6 +13,7 @@ const App = () => {
     <Hero/>
     <ShinyDivider />
     <ShowCaseSection />
+    <LogoSection />
     </>
   )
 }

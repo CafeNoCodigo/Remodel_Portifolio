@@ -1,3 +1,5 @@
+export const divide_words = ['JAVA', 'REACT', 'JAVAFX', 'JAVASCRIPT', 'CSS', 'HTML', 'THREEJS', 'GSAP', 'MYSQL', 'GIT', 'GITHUB'];
+
 const navLinks = [
   {
     name: "Trabalhos",

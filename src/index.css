@@ -339,6 +339,24 @@ section {
   animation: wordSlider 21s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
 }
 
+@keyframes shimmer {
+  0% {
+    transform: translateX( -100% );
+  }
+
+  50% {
+    transform: translateX( 100% );
+  }
+
+  100% {
+    transform: translateX( -100% );
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 3s linear infinite;
+}
+
 @keyframes wordSlider {
   0% {
     transform: translateY(0%);

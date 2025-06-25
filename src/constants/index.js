@@ -1,3 +1,5 @@
+export const divide_words = ['JAVA', 'REACT', 'JAVAFX', 'JAVASCRIPT', 'CSS', 'HTML', 'THREEJS', 'GSAP', 'MYSQL', 'GIT', 'GITHUB'];
+
 const navLinks = [
   {
     name: "Trabalhos",
@@ -71,6 +73,9 @@ const logoIconsList = [
   },
   {
     imgPath: "/images/logos/company-logo-11.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-12.png",
   },
 ];
 

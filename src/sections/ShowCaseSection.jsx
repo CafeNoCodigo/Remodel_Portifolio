@@ -47,8 +47,8 @@ const ShowCaseSection = () => {
         <div className='w-full'>
             <div className='showcaselayout'>
                 {/*LEFT SIDE */}
-                <div ref={project1Ref} className='first-project-wrapper'>
-                    <div className='image-wrapper'>
+                <div ref={project1Ref} className='first-project-wrapper '>
+                    <div className='image-wrapper hoverCard'>
                         <img src="/images/project1.jpg" alt="Point of Sale System" />
                     </div>
                     <div className='text-content'>
@@ -59,15 +59,15 @@ const ShowCaseSection = () => {
 
                 {/*RIGHT SIDE */}
                 <div className='project-list-wrapper overflow-hidden'>
-                    <div ref={project2Ref} className='project'>
-                        <div className='image-wrapper bg-[#ffefdb]'>
+                    <div ref={project2Ref} className='project '>
+                        <div className='image-wrapper bg-[#ffefdb] hoverCard-showcase'>
                             <img src="/images/project2.jpg" alt="Point of sale System" />
                         </div>
                         <h2>Integração com API do M-PESA e E-MOLA</h2>
                     </div>
 
                     <div ref={project3Ref} className='project'>
-                        <div className='image-wrapper bg-[#ffefdb]'>
+                        <div className='image-wrapper bg-[#ffefdb] hoverCard-showcase'>
                             <img src="/images/project3.jpg" alt="Point of sale System" />
                         </div>
                         <h2>Layout Robusto Usando JAVAFX</h2>

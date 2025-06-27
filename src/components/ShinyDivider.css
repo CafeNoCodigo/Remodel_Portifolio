@@ -1,13 +1,14 @@
 .shiny-divider-container {
   position: relative;
-  width: 100%;
-  height: 20px; /* maior altura para acomodar texto */
+  height: 30px;
   background-color: #111;
   overflow: hidden;
-  margin-top: 5.5rem;
-  margin-bottom: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
   border-radius: 9999px;
-  box-shadow: 0 0 10px #0ff, 0 0 20px #FF007F, 0 0 20px #FF007F;
+  box-shadow: 0 0 10px #0ff, 0 0 20px #FF007F, 0 0 10px #FF007F;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .shiny-divider-gradient {

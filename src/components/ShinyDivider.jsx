@@ -26,7 +26,7 @@ const ShinyDivider = () => {
 
     tl.to(wrapper, {
       x: maxX,
-      duration: 4,
+      duration: 8,
       ease: 'power2.inOut',
       onComplete: () => {
         setWordIndex((prev) => (prev + 1) % divide_words.length);
@@ -42,7 +42,7 @@ const ShinyDivider = () => {
       gsap.fromTo(
         textRef.current,
         { y: -10, opacity: 0 },
-        { y: 0, opacity: 1, duration: 1.5, ease: 'bounce.out' }
+        { y: 0, opacity: 1, duration: 0.8, ease: 'bounce.out' }
       );
     }
   };

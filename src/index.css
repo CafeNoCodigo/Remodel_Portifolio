@@ -326,6 +326,14 @@ section {
   }
 }
 
+.hoverCard {
+  @apply md:hover:scale-105 md:hover:bg-zinc-800 md:transition-transform duration-300 ease-in-out cursor-pointer shadow-md md:hover:shadow-xl;
+}
+
+.hoverCard-showcase {
+  @apply md:hover:scale-105 md:hover:bg-[#ffefdb] md:transition-transform duration-300 ease-in-out cursor-pointer shadow-md md:hover:shadow-xl;
+}
+
 /* Hero text slider starts */
 .slide {
   display: inline-block;
@@ -435,7 +443,7 @@ section {
   height: 100%;
   position: absolute;
   overflow: hidden;
-  animation: marquee 10s linear infinite;
+  animation: marquee 60s linear infinite;
 }
 .marquee-item {
   float: left;

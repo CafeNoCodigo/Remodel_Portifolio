@@ -32,7 +32,7 @@ const Hero = () => {
             {/*LEFT: HERO CONTENT */}
             <header className="flex flex-col justify-center md:w-full w:screen md:px-20 px-2">
                 <div className="flex flex-col gap-7">
-                    <div className="hero-text md:right-16">
+                    <div className="hero-text">
                         <h1>
                         Transformo
                         <span className="slide">
@@ -54,12 +54,12 @@ const Hero = () => {
                         <h1>em Projectos Reais</h1>
                         <h1>que Entregam Resultados</h1>
                     </div>
-                    <p className="text-white-50 md:text-xl relative z-10 pointer-events-none md:right-16">Olá! Chamo-me Fabião Mainato e sou desenvolvedor de software, </p>
-                    <p className="text-white-50 md:text-xl relative z-10 pointer-events-none md:right-16 bottom-6">sistemas Desktop e sistemas web.</p>
+                    <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">Olá! Chamo-me Fabião Mainato e sou desenvolvedor de software, </p>
+                    <p className="text-white-50 md:text-xl relative z-10 pointer-events-none bottom-6">sistemas Desktop e sistemas web.</p>
                     
                     <Button 
                         text="Trabalhos Feitos"
-                        className="md:w-80 md:h-17 w-75 h-12 md:right-16"
+                        className="md:w-80 md:h-17 w-75 h-12"
                         id="button"
                         />
                 </div>

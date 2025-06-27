@@ -1,4 +1,4 @@
-export const divide_words = [
+const divide_words = [
   'INOVAÇÃO',
   'FOCO',
   'DEDICAÇÃO',
@@ -88,6 +88,9 @@ const logoIconsList = [
   },
   {
     imgPath: "/images/logos/company-logo-12.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-1.png",
   },
 ];
 
@@ -295,4 +298,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  divide_words
 };

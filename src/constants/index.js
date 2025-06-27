@@ -1,4 +1,16 @@
-export const divide_words = ['JAVA', 'REACT', 'JAVAFX', 'JAVASCRIPT', 'CSS', 'HTML', 'THREEJS', 'GSAP', 'MYSQL', 'GIT', 'GITHUB'];
+export const divide_words = [
+  'INOVAÇÃO',
+  'FOCO',
+  'DEDICAÇÃO',
+  'TECNOLOGIA',
+  'CRIATIVIDADE',
+  'EFICIÊNCIA',
+  'CONFIANÇA',
+  'AUTOMAÇÃO',
+  'EXPERIÊNCIA',
+  'RESULTADOS',
+  'PERFORMANCE'
+];
 
 const navLinks = [
   {
@@ -81,19 +93,19 @@ const logoIconsList = [
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath: "/images/details.png",
+    title: "Atenção aos Detalhes",
+    desc: "Cuido de cada aspecto do projeto, desde o design até a lógica de programação, garantindo um sistema funcional e visualmente agradável.",
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath: "/images/proativity.png",
+    title: "Proatividade",
+    desc: "Antecipando necessidades e propondo soluções eficazes, mantenho o ritmo do projeto com autonomia e iniciativa.",
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: "/images/organized.png",
+    title: "Organização e Comprometimento",
+    desc: "Planejo cada etapa com clareza e cumpro prazos com responsabilidade, mantendo o foco no objetivo final.",
   },
 ];
 

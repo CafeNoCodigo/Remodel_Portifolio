@@ -1,6 +1,4 @@
-import React from 'react'
-import { logoIconsList } from '../constants'
-import { div } from 'three/tsl'
+import { logoIconsList } from '../constants/index'
 
 const LogoIcon = ({ icon }) => {
     return (
@@ -16,7 +14,7 @@ const LogoSection = () => {
         <div className='gradient-edge'/>
         <div className='gradient-edge'/>
 
-        <div className='marquee h-52'>
+        <div className='marquee h-40'>
             <div className='marquee-box md: gap-12 gap-5 '>
                 { logoIconsList.map((icon) => (
                     <LogoIcon key={ icon.name } icon={icon}/>

@@ -35,17 +35,13 @@ const HoverCounterCard = ({ item }) => {
 
   return (
     <div
-      className="bg-zinc-900 rounded-lg p-4 flex flex-col justify-center hoverCard"
+      className="bg-black-100 rounded-lg p-4 flex flex-col justify-center hoverCard"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >
       <div
         ref={numberRef}
         className="counter-number text-white text-5xl font-bold mb-2"
-        style={{
-          transform: `translateX(${offsetX}px)`,
-          transition: "transform 0.3s ease-out",
-        }}
       >
         <CountUp suffix={item.suffix} end={item.value} />
       </div>

@@ -9,6 +9,7 @@
   box-shadow: 0 0 10px #0ff, 0 0 20px #FF007F, 0 0 10px #FF007F;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
+  z-index: 1;
 }
 
 .shiny-divider-gradient {

@@ -61,9 +61,12 @@ const ShowCaseSection = () => {
                 <div className='project-list-wrapper overflow-hidden'>
                     <div ref={project2Ref} className='project '>
                         <div className='image-wrapper bg-[#ffefdb] hoverCard-showcase'>
-                            <img src="/images/project2.jpg" alt="Point of sale System" />
+                            <a href="https://drive.google.com/drive/folders/167venfE2cVKG5Fy5zBkOYPgH2xjBNxNG?usp=drive_link" target="_blank" alt="Planilha de Controle de Estoque">
+                            <img src="/images/project2.png" alt="Point of sale System" />
+                            </a>
+                            
                         </div>
-                        <h2>Integração com API do M-PESA e E-MOLA</h2>
+                        <h2>Planilha 100% completa para Controle de Estoque feito no excel e google planilhas com formulas para cálculo automático do fluxo de caíxa</h2>
                     </div>
 
                     <div ref={project3Ref} className='project'>

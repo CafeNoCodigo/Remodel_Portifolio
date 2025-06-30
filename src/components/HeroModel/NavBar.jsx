@@ -2,30 +2,32 @@ import React, { useEffect } from 'react'
 import { navLinks } from '../../constants'
 import { useState } from 'react';
 
-const NavBar = () => {
+const NavBar = ( { setCursorEnlarge } ) => {
 const [scrolled, setScrolled] = useState(false);
 
-useEffect(() => {
+
+  useEffect(() => {
     const handleScroll = () => {
-        const isScrolled = window.scrollY > 10;
-        setScrolled(true);
-    }
+      const isScrolled = window.scrollY > 10;
+      setScrolled(isScrolled);
+    };
 
     window.addEventListener('scroll', handleScroll);
-
     return () => window.removeEventListener('scroll', handleScroll);
-}, [])
+  }, []);
 return (
     <header className={`navbar ${scrolled? 'scrolled' : 'not-scrolled'}`}>
-        <div className='inner'>
+        <div className='inner '>
             <a className='logo' href="#hero">
-                Fabião  \/  Mainato
+                  \/  
             </a>
 
-            <nav className='desktop'>
+            <nav className='desktop cursorHover'>
                 <ul>
                     {navLinks.map(({ link, name }) => 
-                        <li key={name} className='group'>
+                        <li onMouseEnter={() => setCursorEnlarge(true)}
+                            onMouseLeave={() => setCursorEnlarge(false)} 
+                            key={name} className='group'>
                             <a href={link}>
                                 <span>{name}</span>
                                 <span className='underline' />

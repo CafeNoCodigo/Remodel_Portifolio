@@ -1,23 +1,44 @@
-import NavBar from "./components/HeroModel/NavBar.jsx"
-import LogoSection from "./sections/LogoSection.jsx"
-import ShinyDivider from "./components/ShinyDivider.jsx"
-import FeatureCards from "./sections/FeatureCards.jsx"
+import { useEffect, useState } from "react";
 
-import Hero from "./sections/Hero.jsx"
-import ShowCaseSection from "./sections/ShowCaseSection.jsx"
+import NavBar from "./components/HeroModel/NavBar.jsx";
+import LogoSection from "./sections/LogoSection.jsx";
+import ShinyDivider from "./components/ShinyDivider.jsx";
+import FeatureCards from "./sections/FeatureCards.jsx";
 
+import Hero from "./sections/Hero.jsx";
+import ShowCaseSection from "./sections/ShowCaseSection.jsx";
+import TechStack from "./sections/TechStack.jsx";
+import CursorTracker from "./components/CursorTracker.jsx";
 
 const App = () => {
+  const [cursorEnlarge, setCursorEnlarge] = useState(false);
+
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      const x = (e.clientX / window.innerWidth) * 100;
+      const y = (e.clientY / window.innerHeight) * 100;
+
+      document.documentElement.style.setProperty('--x', `${x}%`);
+      document.documentElement.style.setProperty('--y', `${y}%`);
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+    return () => window.removeEventListener('mousemove', handleMouseMove);
+  }, []);
+
   return (
     <>
-    <NavBar />
-    <Hero/>
-    <ShinyDivider />
-    <ShowCaseSection />
-    <LogoSection />
-    <FeatureCards />
+      <CursorTracker enlarge={cursorEnlarge}/>
+      <div id="mouse-light-effect" />
+      <NavBar setCursorEnlarge={setCursorEnlarge}/>
+      <Hero />
+      <ShinyDivider />
+      <ShowCaseSection />
+      <LogoSection />
+      <FeatureCards />
+      <TechStack />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

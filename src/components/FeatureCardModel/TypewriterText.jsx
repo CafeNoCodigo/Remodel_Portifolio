@@ -11,7 +11,7 @@ const TypewriterText = ({ text, trigger }) => {
       if (index <= text.length) {
         setDisplayedText(text.slice(0, index));
         index++;
-        setTimeout(type, 30);
+        setTimeout(type, 10);
       }
     };
     type();

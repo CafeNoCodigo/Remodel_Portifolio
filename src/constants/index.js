@@ -18,16 +18,12 @@ const navLinks = [
     link: "#work",
   },
   {
-    name: "Experiência",
-    link: "#experience",
-  },
-  {
     name: "Habilidades",
     link: "#skills",
   },
   {
-    name: "Testemunhos",
-    link: "#testimonials",
+    name: "Sobre Mim",
+    link: "#aboutme",
   },
 ];
 
@@ -88,9 +84,6 @@ const logoIconsList = [
   },
   {
     imgPath: "/images/logos/company-logo-12.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-1.png",
   },
 ];
 

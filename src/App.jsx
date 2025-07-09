@@ -41,6 +41,7 @@ const App = () => {
       <TechStack />
       <Contact />
       <Footer />
+      
     </>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { navLinks } from '../../constants'
+import { navLinks } from '../../../constants';
 import { useState } from 'react';
 
 const NavBar = ( { setCursorEnlarge } ) => {

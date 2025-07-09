@@ -1,6 +1,4 @@
-import React from 'react'
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const CursorTracker = ( { enlarge } ) => {
   const [ cursorX, setCursorX ] = useState( 0 );
@@ -8,24 +6,27 @@ const CursorTracker = ( { enlarge } ) => {
 
   useEffect(() => {
     const handleMouseMove = ( e ) => {
-        setCursorX(e.pageX);
-        setCursorY(e.pageY);
+      setCursorX(e.pageX);
+      setCursorY(e.pageY);
     };
 
     window.addEventListener('mousemove', handleMouseMove);
 
     return () => {
-        window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
   return (
     <div id='cursor'
         style={{
-            width: enlarge ? '60px' : '20px',
-            height: enlarge ? '60px' : '20px',
-            left: cursorX + 'px',
-            top: cursorY + 'px'
-        }}></div>
+          width: enlarge ? '60px' : '20px',
+          height: enlarge ? '60px' : '20px',
+          opacity: enlarge ? 0.2 : 1,
+          left: cursorX + 'px',
+          top: cursorY + 'px',
+          position: 'fixed'
+        }}>
+    </div>
   )
 }
 

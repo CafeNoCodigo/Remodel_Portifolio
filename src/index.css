@@ -336,6 +336,10 @@ section {
   @apply md:hover:scale-105 md:hover:bg-[#ffefdb] md:transition-transform duration-500 ease-in-out cursor-pointer shadow-md md:hover:shadow-xl;
 }
 
+.showcase-img-logo {
+  @apply md:hover:scale-110 transition-all duration-300 ease-in-out;
+}
+
 /* Hero text slider starts */
 .slide {
   display: inline-block;

@@ -1,3 +1,8 @@
+const project_logo_link = {
+  imgDeploy: './images/logos/cloud.png',
+  imgGitHub: '/images/logos/github-30.png'
+}
+
 const divide_words = [
   'INOVAÇÃO',
   'FOCO',
@@ -11,6 +16,30 @@ const divide_words = [
   'RESULTADOS',
   'PERFORMANCE'
 ];
+
+const project1 = {
+  img: './images/project1.jpg',
+  alt: 'Point of Sale System',
+  title: 'Sistema Inteligente de Ponto de Venda (PDV)',
+  text: 'Uma aplicação moderna desenvolvida em Java com JavaFX e MySQL, projetada para agilizar o     processo de vendas, controlar estoque, gerenciar funcionários e gerar relatórios em tempo real. Ideal para pequenas e médias empresas que buscam eficiência e controle total do seu negócio.',
+  link: 'https://vendeagora-sns.vercel.app'
+
+};
+const project2 = {
+  img: '/images/project2.png',
+  alt: 'Planilha de Controle de Estoque',
+  title: 'Planilha 100% completa para Controle de Estoque feito no excel e google planilhas com formulas para cálculo automático do fluxo de caíxa',
+  link: 'https://drive.google.com/drive/folders/167venfE2cVKG5Fy5zBkOYPgH2xjBNxNG?usp=drive_link'
+
+};
+const project3 = {
+  img: '/images/project3.jpg',
+  alt: 'Point of Sale System',
+  title: 'Layout Robusto Usando JAVAFX',
+  link: '#',
+  link_github: '#'
+
+};
 
 const navLinks = [
   {
@@ -41,11 +70,32 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 2, suffix: "+", label: "Anos de Experiência" },
-  { value: 1000, suffix: "+", label: "Horas de Código" },
-  { value: 7, suffix: "+", label: "Tecnologias Dominadas" },
-  { value: 2, suffix: "+", label: "Projectos Finalizados" },
-  { value: 100, suffix: "%", label: "Retenção de Clientes" },
+  { id:0,
+    value: 2,
+    suffix: "+", 
+    label: "Anos de Experiência" 
+  },
+
+  { id: 1, 
+    value: 1000, 
+    suffix: "+", 
+    label: "Horas de Código" },
+  { id: 2, value: 7, suffix: "+", label: "Tecnologias Dominadas" 
+
+  },
+  { 
+    id: 3,  
+    value: 2, 
+    suffix: "+", 
+    label: "Projectos Finalizados" 
+  },
+
+  { 
+    id: 4, 
+    value: 100, 
+    suffix: "%", 
+    label: "Retenção de Clientes" 
+  },
 ];
 
 const logoIconsList = [
@@ -291,5 +341,9 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
-  divide_words
+  divide_words,
+  project1,
+  project2,
+  project3,
+  project_logo_link
 };

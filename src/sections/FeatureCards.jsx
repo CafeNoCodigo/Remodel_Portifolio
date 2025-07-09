@@ -1,5 +1,5 @@
 import { useInViewOnce } from '../hooks/useInViewOnce';
-import TypewriterText from '../components/FeatureCardModel/TypewriterText.jsx';
+import TypewriterText from '../components/models/FeatureCardModel/TypewriterText.jsx';
 import { abilities } from '../constants/index.js';
 import { motion } from 'framer-motion';
 

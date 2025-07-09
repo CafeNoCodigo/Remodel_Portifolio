@@ -2,6 +2,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import { useRef } from 'react';
+import { project1, project2, project3, project_logo_link } from "../constants";
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -41,19 +42,22 @@ const ShowCaseSection = () => {
   }, []);
 
   return (
-    
     <section id='work' ref={sectionRef} className='app-showcase'>
-        
         <div className='w-full'>
             <div className='showcaselayout'>
                 {/*LEFT SIDE */}
                 <div ref={project1Ref} className='first-project-wrapper '>
                     <div className='image-wrapper hoverCard'>
-                        <img src="/images/project1.jpg" alt="Point of Sale System" />
+                        <a href={ project1.link } target="_blank"><img src={ project1.img } alt={ project1.alt } /></a>
+                    </div>
+                    <div className="flex mt-7 gap-5">
+                        <a href= { project1.link } target="_blank">
+                            <img className="showcase-img-logo" src={ project_logo_link.imgDeploy } alt="Deploy" />
+                        </a>
                     </div>
                     <div className='text-content'>
-                        <h2>Sistema Inteligente de Ponto de Venda (PDV)</h2>
-                        <p className='text-white-50 md:text-xl text-justify'>Uma aplicação moderna desenvolvida em Java com JavaFX e MySQL, projetada para agilizar o processo de vendas, controlar estoque, gerenciar funcionários e gerar relatórios em tempo real. Ideal para pequenas e médias empresas que buscam eficiência e controle total do seu negócio.</p>
+                        <h2>{ project1.title }</h2>
+                        <p className='text-white-50 md:text-xl text-justify'>{ project1.text }</p>
                     </div>
                 </div>
 
@@ -61,19 +65,26 @@ const ShowCaseSection = () => {
                 <div className='project-list-wrapper overflow-hidden'>
                     <div ref={project2Ref} className='project '>
                         <div className='image-wrapper bg-[#ffefdb] hoverCard-showcase'>
-                            <a href="https://drive.google.com/drive/folders/167venfE2cVKG5Fy5zBkOYPgH2xjBNxNG?usp=drive_link" target="_blank" alt="Planilha de Controle de Estoque">
-                            <img src="/images/project2.png" alt="Point of sale System" />
-                            </a>
+                            <img src={ project2.img } alt="Point of sale System" />
                             
                         </div>
-                        <h2>Planilha 100% completa para Controle de Estoque feito no excel e google planilhas com formulas para cálculo automático do fluxo de caíxa</h2>
+                        <div className="flex w-7 h-7 mt-7">
+                            <a href={ project2.link } target="_blank" alt={ project2.alt }>
+                                <img className="showcase-img-logo" src={ project_logo_link.imgDeploy } alt="Deploy" />
+                            </a>
+                        </div>
+                        <h2>{ project2.title }</h2>
                     </div>
 
                     <div ref={project3Ref} className='project'>
                         <div className='image-wrapper bg-[#ffefdb] hoverCard-showcase'>
-                            <img src="/images/project3.jpg" alt="Point of sale System" />
+                            <img src={ project3.img } alt={ project3.alt } />
                         </div>
-                        <h2>Layout Robusto Usando JAVAFX</h2>
+                        <div className="flex w-20 h-20 gap-5">
+                            <a href={ project3.link }><img className="showcase-img-logo" src={ project_logo_link.imgDeploy } alt="Deploy" /></a>
+                            <a href={ project3.link_github }><img className="showcase-img-logo" src={ project_logo_link.imgGitHub } alt="GitHub" /></a>
+                        </div>
+                        <h2 className="md:mt-[-2px]">{ project3.title }</h2>
                     </div>
                 </div>
             </div>

@@ -30,9 +30,8 @@ const App = () => {
 
   return (
     <>
-      <CursorTracker enlarge={cursorEnlarge}/>
       <div id="mouse-light-effect" />
-      <NavBar setCursorEnlarge={setCursorEnlarge}/>
+      <NavBar />
       <Hero />
       <ShinyDivider />
       <ShowCaseSection />

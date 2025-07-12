@@ -206,6 +206,29 @@ const socialImgs = [
   }
 ];
 
+const techStackImgs = [
+  {
+    name: "React Developer",
+    imgPath: "/images/logos/react.svg",
+  },
+  {
+    name: "Java Developer",
+    imgPath: "/images/logos/java.svg",
+  },
+  {
+    name: "JavaScript Developer",
+    imgPath: "/images/logos/javascript.svg",
+  },
+  {
+    name: "Backend Developer",
+    imgPath: "/images/logos/node.png",
+  },
+  {
+    name: "Product Manager",
+    imgPath: "/images/logos/git.svg",
+  },
+];
+
 export {
   words,
   abilities,
@@ -218,5 +241,6 @@ export {
   project1,
   project2,
   project3,
-  project_logo_link
+  project_logo_link,
+  techStackImgs
 };

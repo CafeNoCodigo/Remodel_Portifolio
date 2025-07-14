@@ -273,7 +273,7 @@ section {
 
     input,
     textarea {
-      @apply w-full px-4 py-4 md:text-base text-sm placeholder:text-blue-50 bg-blue-100 rounded-md;
+      @apply w-full px-4 py-4 md:text-base text-sm placeholder:text-blue-50 bg-black-200 rounded-md;
     }
 
     a {
@@ -474,7 +474,7 @@ section {
     background: radial-gradient(
       circle at var(--x, 50%) var(--y, 50%),
       rgba(222, 236, 236, 0.11) 0%,
-      transparent 70%
+      transparent 30%
     );
     transition: background-position 0.1s;
   }
@@ -494,5 +494,5 @@ section {
 
   body.hovering #cursor {
   transform: scale(5);
-}
+  }
 }

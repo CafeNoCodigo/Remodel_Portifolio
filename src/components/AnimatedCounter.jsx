@@ -32,11 +32,9 @@ const HoverCounterCard = ({ item }) => {
   const handleMouseLeave = () => {
     setOffsetX(0);
   };
-
   return (
-    
     <div
-      className="bg-black-100 rounded-lg p-4 flex flex-col justify-center hoverCard mt-20"
+      className="bg-black-100 rounded-lg p-4 flex flex-col justify-center hoverCard"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >

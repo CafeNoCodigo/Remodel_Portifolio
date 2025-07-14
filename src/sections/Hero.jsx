@@ -72,7 +72,7 @@ const Hero = () => {
                     style={{ perspective: '800px'}}>
                 <img 
                     src="./images/perfil.png" alt="Perfil"
-                    className='scale-180 md:ml-[-10rem] mt-30 md:mt-0'
+                    className='mt-[-13rem] md:mt-[-35rem] md:scale-90 md:ml-[-10rem] ml-[-20px]'
                     style={{ transition: 'transform 0.2s '}}
                     onMouseMove={e => {
                       const img = e.currentTarget;

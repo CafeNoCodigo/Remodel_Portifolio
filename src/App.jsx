@@ -8,7 +8,6 @@ import FeatureCards from "./sections/FeatureCards.jsx";
 import Hero from "./sections/Hero.jsx";
 import ShowCaseSection from "./sections/ShowCaseSection.jsx";
 import TechStack from "./sections/TechStack.jsx";
-import CursorTracker from "./components/CursorTracker.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
 

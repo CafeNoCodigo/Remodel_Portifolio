@@ -34,8 +34,9 @@ const HoverCounterCard = ({ item }) => {
   };
 
   return (
+    
     <div
-      className="bg-black-100 rounded-lg p-4 flex flex-col justify-center hoverCard"
+      className="bg-black-100 rounded-lg p-4 flex flex-col justify-center hoverCard mt-20"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >

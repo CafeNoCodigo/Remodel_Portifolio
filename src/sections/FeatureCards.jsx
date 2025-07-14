@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const FeatureCards = () => {
   return (
-    <div className="w-full padding-x-lg flex">
+    <div className="w-full padding-x-lg flex px-10 justify-center items-center">
       <div className="mx-auto grid-3-cols">
         {abilities.map(({ imgPath, title, desc }) => {
           const [ref, isVisible] = useInViewOnce();
@@ -20,7 +20,7 @@ const FeatureCards = () => {
               className="card-border rounded-xl p-8 flex flex-col gap-4 hoverCard"
             >
               <div className="size-14 flex items-center justify-center rounded-full">
-                <img src={imgPath} alt={title} />
+                <img src={imgPath} alt={title} loading='lazy'/>
               </div>
               <h3 className="text-white text-2xl font-semibold mt-2">{title}</h3>
               <TypewriterText text={desc} trigger={isVisible} />

@@ -155,39 +155,6 @@ const abilities = [
   },
 ];
 
-const techStackIcons = [
-  {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Java Developer",
-    modelPath: "/models/java.glb",
-    scale: 2.5,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
-  },
-  {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
-  },
-];
-
 const socialImgs = [
   {
     name: "github",
@@ -206,17 +173,40 @@ const socialImgs = [
   }
 ];
 
+const techStackImgs = [
+  {
+    name: "React Developer",
+    imgPath: "/images/logos/react.svg",
+  },
+  {
+    name: "Java Developer",
+    imgPath: "/images/logos/java.svg",
+  },
+  {
+    name: "JavaScript Developer",
+    imgPath: "/images/logos/javascript.svg",
+  },
+  {
+    name: "Backend Developer",
+    imgPath: "/images/logos/node.png",
+  },
+  {
+    name: "Product Manager",
+    imgPath: "/images/logos/git.svg",
+  },
+];
+
 export {
   words,
   abilities,
   logoIconsList,
   counterItems,
   socialImgs,
-  techStackIcons,
   navLinks,
   divide_words,
   project1,
   project2,
   project3,
-  project_logo_link
+  project_logo_link,
+  techStackImgs
 };

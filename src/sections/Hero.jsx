@@ -1,10 +1,8 @@
 import { words } from '../constants/index.js';
-import Button from '../components/Button.jsx';
-import HeroExperience from '../components/models/HeroModel/HeroExperience.jsx';
+import Button from '../components/button.jsx';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import AnimatedCounter from '../components/AnimatedCounter.jsx';
-
 
 const Hero = () => {
     useGSAP(() =>{
@@ -66,9 +64,31 @@ const Hero = () => {
             </header>
 
             {/*RIGTH: 3D MODEL */}
-            <figure>
-                <div className='hero-3d-layout'>
-                    <HeroExperience/>
+            <figure className='flex justify-center items-center'>
+                
+                <div 
+                    className='hero-3d-layout md:h-4/5 h-10 mt-40'
+                    style={{ perspective: '800px'}}>
+                <img 
+                    src="./images/perfil.png" alt="Perfil"
+                    className='mt-[-13rem] md:mt-[-35rem] md:scale-90 md:ml-[-10rem] ml-[-20px]'
+                    style={{ transition: 'transform 0.2s '}}
+                    onMouseMove={e => {
+                      const img = e.currentTarget;
+                      const rect = img.getBoundingClientRect();
+                      const x = e.clientX - rect.left;
+                      const y = e.clientY - rect.top;
+                      const centerX = rect.width / 2;
+                      const centerY = rect.height / 2;
+                      let rotateY = ((x - centerX) / centerX) * 30;
+                      let rotateX = -((y - centerY) / centerY) * 30;
+                      rotateY = Math.max(-15, Math.min(15, rotateY));
+                      rotateX = Math.max(-15, Math.min(15, rotateX));
+                      img.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+                    }}
+                    onMouseLeave={ e => {
+                        e.currentTarget.style.transform = 'rotateX(0deg) rotateY(0deg)';
+                    }}/>
                 </div>
             </figure>
         </div>

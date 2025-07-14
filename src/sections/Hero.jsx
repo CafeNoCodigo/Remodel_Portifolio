@@ -4,7 +4,6 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import AnimatedCounter from '../components/AnimatedCounter.jsx';
 
-
 const Hero = () => {
     useGSAP(() =>{
         gsap.fromTo('.hero-text h1',
